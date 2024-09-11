@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 244, 244);
+}
+
+nav {
+    background-color: rgb(53, 53, 53);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    width: 20vw;
+    background-color: rgb(76, 177, 79);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgb(69, 159, 73);
+}
+
+section {
+    margin: 20px;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    width: 45%;
+    margin: 0 2.5%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(53, 53, 53);
+    border: 2px solid rgb(77, 177, 81);
+    padding: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}

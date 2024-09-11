@@ -1,0 +1,6 @@
+A grade CSS é mais apropriada do que o flexbox quando você precisa de controle de layout de uma matriz,
+o que é útil quando você deseja organizar elementos em linhas e colunas de uma maneira mais complexa e precisa.
+Grid permite posicionar e distribuir elementos em um layout baseado em grade, enquanto o flexbox é mais eficaz para layouts linhas ou colunas. 
+
+Quando você deve utilizar a grade CSS:
+Layouts complexos com áreas claramente definidas e de diferentes tamanhos. 
