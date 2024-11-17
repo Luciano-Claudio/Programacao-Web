@@ -3,8 +3,8 @@ const { v4: uuidv4 } = require("uuid");
 const animes = [
     {
         id: uuidv4(),
-        name: "Naruto",
-        genre: "Ação, Aventura",
+        name: "Bleach",
+        genre: "Ação, Sobrenatural",
         studio: "Pierrot",
     },
     {
@@ -15,27 +15,9 @@ const animes = [
     },
     {
         id: uuidv4(),
-        name: "Attack on Titan",
-        genre: "Ação, Drama",
-        studio: "Wit Studio",
-    },
-    {
-        id: uuidv4(),
-        name: "My Hero Academia",
-        genre: "Ação, Super-herói",
-        studio: "Bones",
-    },
-    {
-        id: uuidv4(),
-        name: "Demon Slayer",
-        genre: "Ação, Fantasia",
-        studio: "ufotable",
-    },
-    {
-        id: uuidv4(),
-        name: "Fullmetal Alchemist: Brotherhood",
-        genre: "Ação, Aventura",
-        studio: "Bones",
+        name: "Dragon Ball Z",
+        genre: "Ação, Artes Marciais",
+        studio: "Toei Animation",
     },
     {
         id: uuidv4(),
@@ -45,27 +27,45 @@ const animes = [
     },
     {
         id: uuidv4(),
-        name: "Sword Art Online",
+        name: "Naruto",
         genre: "Ação, Aventura",
-        studio: "A-1 Pictures",
-    },
-    {
-        id: uuidv4(),
-        name: "Dragon Ball Z",
-        genre: "Ação, Artes Marciais",
-        studio: "Toei Animation",
-    },
-    {
-        id: uuidv4(),
-        name: "Fairy Tail",
-        genre: "Ação, Aventura",
-        studio: "A-1 Pictures",
-    },
-    {
-        id: uuidv4(),
-        name: "Bleach",
-        genre: "Ação, Sobrenatural",
         studio: "Pierrot",
+    },
+    {
+        id: uuidv4(),
+        name: "Steins;Gate",
+        genre: "Ficção Científica, Drama",
+        studio: "White Fox",
+    },
+    {
+        id: uuidv4(),
+        name: "Code Geass",
+        genre: "Mecha, Suspense",
+        studio: "Sunrise",
+    },
+    {
+        id: uuidv4(),
+        name: "Demon Slayer",
+        genre: "Ação, Fantasia",
+        studio: "ufotable",
+    },
+    {
+        id: uuidv4(),
+        name: "My Hero Academia",
+        genre: "Ação, Super-herói",
+        studio: "Bones",
+    },
+    {
+        id: uuidv4(),
+        name: "Hunter x Hunter",
+        genre: "Ação, Aventura",
+        studio: "Madhouse",
+    },
+    {
+        id: uuidv4(),
+        name: "Attack on Titan",
+        genre: "Ação, Drama",
+        studio: "Wit Studio",
     },
 ];
 

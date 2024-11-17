@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(36, 36, 36); 
 }
 
 .container {
@@ -20,9 +20,9 @@ body {
     width: 100%;
     max-width: 500px;
     padding: 20px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255); 
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.12); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +30,7 @@ body {
 
 .main-card h1 {
     margin-bottom: 20px;
-    color: rgb(51, 51, 51);
+    color: rgb(51, 51, 51); 
 }
 
 .input-container {
@@ -47,10 +47,10 @@ body {
 
 .input-container input {
     width: 100%;
-    padding: 10px;
-    border: 1px solid rgb(204, 204, 204);
-    border-radius: 5px;
-    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid rgb(204, 204, 204); 
+    border-radius: 6px;
+    margin: 8px 0;
     outline: none;
 }
 
@@ -59,11 +59,11 @@ body {
 }
 
 .input-container button {
-    padding: 10px;
+    padding: 12px;
     background-color: rgb(51, 51, 51);
     color: rgb(255, 255, 255);
     border: none;
-    border-radius: 5px;
+    border-radius: 6px; 
     cursor: pointer;
     outline: none;
 }
@@ -79,7 +79,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #333;
+    color: rgb(51, 51, 51);
 }
 
 .result h3 {
@@ -95,14 +95,14 @@ body {
     flex-direction: column;
     width: 100%;
     padding: 20px;
-    background-color: rgb(249, 249, 249);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(249, 249, 249); 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12); 
 }
 
 .result-container p {
     margin-bottom: 10px;
     font-size: 1em;
-    color: #555;
+    color: rgb(85, 85, 85); /* #555 */
     line-height: 1.6;
 }

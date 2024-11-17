@@ -1,26 +1,26 @@
 import React, { useEffect, useState } from "react";
 
-function Counter() {
-    const [count, setCount] = useState(0);
+function Timer() {
+    const [seconds, setSeconds] = useState(0);
 
     useEffect(() => {
-        const interval = setInterval(() => {
-            setCount((prevCount) => prevCount + 1);
+        const timer = setInterval(() => {
+            setSeconds((prevSeconds) => prevSeconds + 1);
         }, 1000);
 
-        return () => clearInterval(interval);
+        return () => clearInterval(timer);
     }, []);
 
-    const handleReset = () => {
-        setCount(0);
+    const resetTimer = () => {
+        setSeconds(0);
     };
 
     return (
         <div>
-            <h1>Tempo: {count}</h1>
-            <button onClick={handleReset}>Reiniciar</button>
+            <h1>Contador: {seconds}</h1>
+            <button onClick={resetTimer}>Zerar</button>
         </div>
     );
 }
 
-export default Counter;
+export default Timer;
