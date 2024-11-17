@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Atividade 03 - Consulta de CEP</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="main-card">
+                <h1>Consulta de CEP</h1>
+                <div class="input-container">
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" />
+                    <button id="search">Consultar</button>
+                </div>
+                <div class="result">
+                    <h3>Resultado</h3>
+                    <div class="result-container">
+                        <p><strong>CEP:</strong> <span id="cep-result"></span></p>
+                        <p><strong>Logradouro:</strong> <span id="logradouro"></span></p>
+                        <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+                        <p><strong>Cidade:</strong> <span id="cidade"></span></p>
+                        <p><strong>Estado:</strong> <span id="estado"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
